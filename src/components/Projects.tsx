@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import TickerTransport from "../assets/ticketer-trans.png";
 import Tour9ja from "../assets/tour9ja.png";
