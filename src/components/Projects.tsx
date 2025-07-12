@@ -103,7 +103,7 @@ const Projects = () => {
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             Here are some of the projects I've worked on, showcasing my skills
-            in full-stack development and problem-solving capabilities.
+            in backend development, full-stack development and problem-solving capabilities.
           </p>
         </motion.div>
 
