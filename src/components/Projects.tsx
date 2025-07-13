@@ -27,7 +27,7 @@ const Projects = () => {
       liveUrl: "https://www.bountip.com/",
       githubUrl: "#",
       status: "Live",
-      category: "Financial Platform",
+      category: "Restaurant Management",
     },
     {
       id: 3,
