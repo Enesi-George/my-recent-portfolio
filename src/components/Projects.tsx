@@ -12,19 +12,20 @@ const Projects = () => {
       id: 1,
       title: "Kairos",
       description: "A Job search web application",
-      technologies: ["React", "Typescript","NestJs"],
-      image: Kairos, 
+      technologies: ["React", "Typescript", "NestJs", "PostgreSQL"],
+      image: Kairos,
       liveUrl: "https://app.kairosng.com/",
       githubUrl: "#",
       status: "Live",
       category: "Job platform",
     },
-        {
+    {
       id: 2,
       title: "Ticketer Transportations",
-      description: "A business consulting site for innovative startup tech company",
-      technologies: ["React", "Laravel"],
-      image: TickerTransport, 
+      description:
+        "A business consulting site for innovative startup tech company",
+      technologies: ["React"],
+      image: TickerTransport,
       liveUrl: "https://ticketers-transportations.netlify.app/",
       githubUrl: "#",
       status: "Live",
@@ -33,9 +34,9 @@ const Projects = () => {
     {
       id: 3,
       title: "Bountip",
-      description:"A restaurant management platform",
+      description: "A restaurant management platform",
       technologies: ["Nextjs", "Nestjs", "PostgreSQL", "Stripe"],
-      image: Bountip, 
+      image: Bountip,
       liveUrl: "https://www.bountip.com/",
       githubUrl: "#",
       status: "Live",
@@ -45,8 +46,8 @@ const Projects = () => {
       id: 4,
       title: "MANCE",
       description: "A Business performance platform",
-      technologies: ["PHP", "Laravel", "React"],
-      image: Mance, 
+      technologies: ["PHP", "Laravel", "Nextjs", "MySQL"],
+      image: Mance,
       liveUrl: "https://www.mance.app/",
       githubUrl: "#",
       status: "Live",
@@ -55,9 +56,16 @@ const Projects = () => {
     {
       id: 5,
       title: "Touring and Hotel Management System",
-      description:"A tourism and hospitality platform",
-      technologies: ["React", "Laravel", "MySQL", "Cloudinary"],
-      image: Tour9ja, 
+      description: "A tourism and hospitality platform",
+      technologies: [
+        "React",
+        "Laravel",
+        "MySQL",
+        "Cloudinary",
+        "Stripe",
+        "PayStack",
+      ],
+      image: Tour9ja,
       liveUrl: "#",
       githubUrl: "#",
       status: "In Development",
@@ -69,7 +77,7 @@ const Projects = () => {
     //   description:
     //     "An advanced payment processing system with automated workflows, fraud detection, and multi-currency support. Designed for enterprise-level transactions.",
     //   technologies: ["Python", "Django", "PostgreSQL", "Redis"],
-    //   image: null, 
+    //   image: null,
     //   liveUrl: "#",
     //   githubUrl: "#",
     //   status: "In Development",
@@ -114,7 +122,8 @@ const Projects = () => {
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             Here are some of the projects I've worked on, showcasing my skills
-            in backend development, full-stack development and problem-solving capabilities.
+            in backend development, full-stack development and problem-solving
+            capabilities.
           </p>
         </motion.div>
 
@@ -134,8 +143,8 @@ const Projects = () => {
               {/* Project Image */}
               {project.image ? (
                 <div className="relative h-48 overflow-hidden">
-                  <img 
-                    src={project.image} 
+                  <img
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover"
                   />
@@ -189,7 +198,7 @@ const Projects = () => {
                 </p>
 
                 {/* Technologies */}
-                {/* <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
@@ -198,7 +207,7 @@ const Projects = () => {
                       {tech}
                     </span>
                   ))}
-                </div> */}
+                </div>
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
