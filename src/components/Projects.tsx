@@ -3,12 +3,24 @@ import TickerTransport from "../assets/ticketer-trans.png";
 import Tour9ja from "../assets/tour9ja.png";
 import Bountip from "../assets/bountip.png";
 import Mance from "../assets/mance.png";
+import Kairos from "../assets/kairos.png";
 import { ExternalLink, Github, Calendar, Code } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Kairos",
+      description: "A Job search web application",
+      technologies: ["React", "Typescript","NestJs"],
+      image: Kairos, 
+      liveUrl: "https://app.kairosng.com/",
+      githubUrl: "#",
+      status: "Live",
+      category: "Job platform",
+    },
+        {
+      id: 2,
       title: "Ticketer Transportations",
       description: "A business consulting site for innovative startup tech company",
       technologies: ["React", "Laravel"],
@@ -19,7 +31,7 @@ const Projects = () => {
       category: "Business Consult Web Application",
     },
     {
-      id: 2,
+      id: 3,
       title: "Bountip",
       description:"A restaurant management platform",
       technologies: ["Nextjs", "Nestjs", "PostgreSQL", "Stripe"],
@@ -30,7 +42,7 @@ const Projects = () => {
       category: "Restaurant Management",
     },
     {
-      id: 3,
+      id: 4,
       title: "MANCE",
       description: "A Business performance platform",
       technologies: ["PHP", "Laravel", "React"],
@@ -41,7 +53,7 @@ const Projects = () => {
       category: "Business Management",
     },
     {
-      id: 4,
+      id: 5,
       title: "Touring and Hotel Management System",
       description:"A tourism and hospitality platform",
       technologies: ["React", "Laravel", "MySQL", "Cloudinary"],
