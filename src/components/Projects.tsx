@@ -21,12 +21,12 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Ticketer Transportations",
+      title: "AUTOSAAS",
       description:
         "A business consulting site for innovative startup tech company",
       technologies: ["React"],
       image: TickerTransport,
-      liveUrl: "https://ticketers-transportations.netlify.app/",
+      liveUrl: "https://www.autosaas.org/",
       githubUrl: "#",
       status: "Live",
       category: "Business Consult Web Application",
