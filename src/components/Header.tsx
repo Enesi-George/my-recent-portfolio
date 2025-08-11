@@ -239,7 +239,7 @@ const Header = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-2 sm:mb-6 px-4 sm:px-0">
               <motion.a
-                href="#about"
+                href="#projects"
                 className="bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 text-sm sm:text-base"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
