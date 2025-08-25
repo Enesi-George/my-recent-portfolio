@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Menu, X, Github, Twitter, Mail, MapPin, Cpu } from "lucide-react";
+import { Menu, X, Github, Twitter, Mail, MapPin, Cpu, Linkedin  } from "lucide-react";
 import myImage from "../assets/profile.jpg";
 
 const Header = () => {
@@ -143,6 +143,18 @@ const Header = () => {
                   >
                     <div className="flex items-center justify-center space-x-6">
                       <motion.a
+                        href="https://www.linkedin.com/in/enesi-george-techy/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 hover:text-gray-900 transition-colors duration-200 p-2"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        aria-label="LinkedIn"
+                      >
+                        <Linkedin className="h-5 w-5" />
+                      </motion.a>
+                      
+                      <motion.a
                         href="https://github.com/Enesi-George?tab=repositories"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -151,7 +163,7 @@ const Header = () => {
                         whileTap={{ scale: 0.9 }}
                         aria-label="GitHub"
                       >
-                        <Github className="h-5 w-5" />
+                        <Github className="h-5 w-5" />ddd
                       </motion.a>
                       <motion.a
                         href="https://twitter.com/EnesiGeorge1"
@@ -259,6 +271,18 @@ const Header = () => {
             {/* Social Links */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
               <div className="flex items-center space-x-4 sm:space-x-6">
+                <motion.a
+                  href="https://www.linkedin.com/in/enesi-george-techy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900 transition-colors duration-200 p-2"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="h-5 w-5 sm:h-6 sm:w-6" />
+                </motion.a>
+
                 <motion.a
                   href="https://github.com/Enesi-George?tab=repositories"
                   target="_blank"

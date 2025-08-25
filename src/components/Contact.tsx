@@ -11,6 +11,7 @@ import {
   Send,
   User,
   MessageSquare,
+  Linkedin,
 } from "lucide-react";
 import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
@@ -102,6 +103,12 @@ const Contact = () => {
   ];
 
   const socialLinks = [
+    {
+      icon: Linkedin,
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/enesi-george-techy/",
+      color: "text-gray-800 hover:text-gray-600",
+    },
     {
       icon: Github,
       name: "GitHub",
