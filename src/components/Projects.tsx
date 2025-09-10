@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import TickerTransport from "../assets/ticketer-trans.png";
+import SwiftMaidAdmin from "../assets/swiftmaid-admin.png";
+import SwiftMaidMain from "../assets/swiftmaid-main.png";
 import Tour9ja from "../assets/tour9ja.png";
 import Bountip from "../assets/bountip.png";
 import Mance from "../assets/mance.png";
@@ -21,18 +22,32 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "AUTOSAAS",
+      title: "SWIFTMAID Admin Dashbard",
       description:
-        "A business consulting site for innovative startup tech company",
-      technologies: ["React"],
-      image: TickerTransport,
-      liveUrl: "https://www.autosaas.org/",
+        "Revamped a legacy cleaning service web app admin dashboard and api integration",
+      technologies: ["React + TailwindCSS"],
+      image: SwiftMaidAdmin,
+      liveUrl: "http://admin.swiftmaid.co.uk/",
       githubUrl: "#",
       status: "Live",
-      category: "Business Consult Web Application",
+      category: "Cleaning Service Admin Dashboard",
     },
+
     {
       id: 3,
+      title: "SWIFTMAID",
+      description:
+        "Revamped a legacy cleaning service web application and payment api integration",
+      technologies: ["React + Bootstrap"],
+      image: SwiftMaidMain,
+      liveUrl: "http://swiftmaid.co.uk/",
+      githubUrl: "#",
+      status: "Live",
+      category: "Cleaning Service",
+    },
+
+    {
+      id: 4,
       title: "Bountip",
       description: "A restaurant management platform",
       technologies: ["Nextjs", "Nestjs", "PostgreSQL", "Stripe"],
@@ -43,7 +58,7 @@ const Projects = () => {
       category: "Restaurant Management",
     },
     {
-      id: 4,
+      id: 5,
       title: "MANCE",
       description: "A Business performance platform",
       technologies: ["PHP", "Laravel", "Nextjs", "MySQL"],
@@ -54,7 +69,7 @@ const Projects = () => {
       category: "Business Management",
     },
     {
-      id: 5,
+      id: 6,
       title: "Touring and Hotel Management System",
       description: "A tourism and hospitality platform",
       technologies: [
