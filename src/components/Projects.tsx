@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import SwiftMaidAdmin from "../assets/swiftmaid-admin.png";
 import SwiftMaidMain from "../assets/swiftmaid-main.png";
-import Tour9ja from "../assets/tour9ja.png";
+// import Tour9ja from "../assets/tour9ja.png";
 import Bountip from "../assets/bountip.png";
 import Mance from "../assets/mance.png";
 import Kairos from "../assets/kairos.png";
