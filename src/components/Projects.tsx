@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SwiftMaidAdmin from "../assets/swiftmaid-admin.png";
+import SwiftMaidMain from "../assets/swiftmaid-main.png";
 import Autosaas from "../assets/autosaas.png";
 // import Tour9ja from "../assets/tour9ja.png";
 import Bountip from "../assets/bountip.png";
@@ -35,15 +36,15 @@ const Projects = () => {
 
     {
       id: 3,
-      title: "SWIFTMAID Admin Dashbard",
+      title: "SWIFTMAID ",
       description:
-        "Revamped a legacy cleaning service web app admin dashboard and api integration",
-      technologies: ["React + TailwindCSS"],
-      image: SwiftMaidAdmin,
-      liveUrl: "http://admin.swiftmaid.co.uk/",
+        "Revamped a legacy cleaning service web app and api integration",
+      technologies: ["React + Boostrap"],
+      image: SwiftMaidMain,
+      liveUrl: "http://swiftmaid.co.uk/",
       githubUrl: "#",
       status: "Live",
-      category: "Cleaning Service Admin Dashboard",
+      category: "Cleaning Service",
     },
 
     {
