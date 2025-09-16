@@ -13,8 +13,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Kairos",
-      description:
-        "A Job search web application. Germini ai model integration and jobberman RSS feed integration",
+      description: "A Job search web application. Germini ai model integration and jobberman RSS feed integration",
       technologies: ["React", "Typescript", "NestJs", "PostgreSQL"],
       image: Kairos,
       liveUrl: "https://app.kairosng.com/",
@@ -64,8 +63,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Bountip",
-      description:
-        "A restaurant management platform. Implemented Table management features using react drag and drop.",
+      description: "A restaurant management platform. Implemented Table management features using react drag and drop.",
       technologies: ["Nextjs", "Nestjs", "PostgreSQL", "Stripe"],
       image: Bountip,
       liveUrl: "https://www.bountip.com/",
@@ -76,15 +74,14 @@ const Projects = () => {
     {
       id: 6,
       title: "MANCE",
-      description: "A business performance platform with REST APIs.",
-      technologies: ["PHP", "Laravel", "Next.js", "MySQL"],
+      description: "A Business performance platform.",
+      technologies: ["PHP", "Laravel", "Nextjs", "MySQL"],
       image: Mance,
       liveUrl: "https://www.mance.app/",
       githubUrl: "#",
       status: "Live",
-      category: "Enterprise Resource Planning System",
+      category: "ERP",
     },
-
     // {
     //   id: 6,
     //   title: "Touring and Hotel Management System",
