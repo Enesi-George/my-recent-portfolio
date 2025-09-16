@@ -13,7 +13,8 @@ const Projects = () => {
     {
       id: 1,
       title: "Kairos",
-      description: "A Job search web application",
+      description:
+        "A Job search web application. Germini ai model integration and jobberman RSS feed integration",
       technologies: ["React", "Typescript", "NestJs", "PostgreSQL"],
       image: Kairos,
       liveUrl: "https://app.kairosng.com/",
@@ -38,7 +39,7 @@ const Projects = () => {
       id: 3,
       title: "SWIFTMAID ",
       description:
-        "Revamped a legacy cleaning service web app and api integration",
+        "Revamped a legacy cleaning service web app. Backend api integrations and worldpay payment gateway integration",
       technologies: ["React + Boostrap"],
       image: SwiftMaidMain,
       liveUrl: "http://swiftmaid.co.uk/",
@@ -51,7 +52,7 @@ const Projects = () => {
       id: 4,
       title: "AUTOSAAS",
       description:
-        "A business consulting site for innovative startup tech company",
+        "A business consulting platform for innovative startup tech companies, featuring a rule-based AI agent for intelligent customer assistance.",
       technologies: ["React + TailwindCSS"],
       image: Autosaas,
       liveUrl: "https://autosaas.org/",
@@ -63,7 +64,8 @@ const Projects = () => {
     {
       id: 5,
       title: "Bountip",
-      description: "A restaurant management platform",
+      description:
+        "A restaurant management platform. Implemented Table management features using react drag and drop.",
       technologies: ["Nextjs", "Nestjs", "PostgreSQL", "Stripe"],
       image: Bountip,
       liveUrl: "https://www.bountip.com/",
@@ -74,14 +76,15 @@ const Projects = () => {
     {
       id: 6,
       title: "MANCE",
-      description: "A Business performance platform",
-      technologies: ["PHP", "Laravel", "Nextjs", "MySQL"],
+      description: "A business performance platform with REST APIs.",
+      technologies: ["PHP", "Laravel", "Next.js", "MySQL"],
       image: Mance,
       liveUrl: "https://www.mance.app/",
       githubUrl: "#",
       status: "Live",
-      category: "Business Management",
+      category: "Enterprise Resource Planning System",
     },
+
     // {
     //   id: 6,
     //   title: "Touring and Hotel Management System",
