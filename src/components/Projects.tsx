@@ -14,7 +14,7 @@ const Projects = () => {
       id: 1,
       title: "Growth Boosters",
       description:
-        "I fix analytical bugs on the user dashboard, refactor data interpolation for proper display on pages and integrated paystack payment gateway to recieve payment",
+        "I fixed analytical bugs on the user dashboard, refactored data interpolation for proper display on pages and integrated paystack payment gateway to recieve payment",
       technologies: [
         "VueJs",
         "Nuxt",
@@ -33,7 +33,7 @@ const Projects = () => {
       id: 2,
       title: "Kairos",
       description:
-        "I integrated the Gemini AI model 2.5, a Jobberman RSS feed integration, and BullMQ for background data scraping and persistence      ",
+        "Integrated the Gemini AI model 2.5, a Jobberman RSS feed integration, and BullMQ for background data scraping and persistence. Participated in setting up Nginx deployment scripts for an AWS EC2 instance running on Ubuntu and a GitHub workflow.",
       technologies: ["React", "Typescript", "NestJs", "PostgreSQL"],
       image: Kairos,
       liveUrl: "https://app.kairosng.com/",
