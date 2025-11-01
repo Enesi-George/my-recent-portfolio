@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import SwiftMaidAdmin from "../assets/swiftmaid-admin.png";
 import SwiftMaidMain from "../assets/swiftmaid-main.png";
 import Autosaas from "../assets/autosaas.png";
-// import Tour9ja from "../assets/tour9ja.png";
+import GrowthBooster from "../assets/growth-boosters.png";
 import Bountip from "../assets/bountip.png";
 import Mance from "../assets/mance.png";
 import Kairos from "../assets/kairos.png";
@@ -12,8 +12,28 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Growth Boosters",
+      description:
+        "I fix analytical bugs on the user dashboard, refactor data interpolation for proper display on pages and integrated paystack payment gateway to recieve payment",
+      technologies: [
+        "VueJs",
+        "Nuxt",
+        "Laravel",
+        "MySQL",
+        "Cloudinary",
+        "PayStack",
+      ],
+      image: GrowthBooster,
+      liveUrl: "https://investor-staging.growthboosters.com.ng/",
+      githubUrl: "#",
+      status: "Live",
+      category: "Financial Technology",
+    },
+    {
+      id: 2,
       title: "Kairos",
-      description: "A Job search web application. Germini ai model integration and jobberman RSS feed integration",
+      description:
+        "I integrated the Gemini AI model 2.5, a Jobberman RSS feed integration, and BullMQ for background data scraping and persistence      ",
       technologies: ["React", "Typescript", "NestJs", "PostgreSQL"],
       image: Kairos,
       liveUrl: "https://app.kairosng.com/",
@@ -22,7 +42,7 @@ const Projects = () => {
       category: "Job platform",
     },
     {
-      id: 2,
+      id: 3,
       title: "SWIFTMAID Admin Dashbard",
       description:
         "Revamped a legacy cleaning service web app admin dashboard and api integration",
@@ -35,7 +55,7 @@ const Projects = () => {
     },
 
     {
-      id: 3,
+      id: 4,
       title: "SWIFTMAID ",
       description:
         "Revamped a legacy cleaning service web app. Backend api integrations and worldpay payment gateway integration",
@@ -48,10 +68,10 @@ const Projects = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       title: "AUTOSAAS",
       description:
-        "A business consulting platform for innovative startup tech companies, featuring a rule-based AI agent for intelligent customer assistance.",
+        "I developed a business consulting platform for innovative startup tech companies, featuring a rule-based AI agent for intelligent customer assistance.",
       technologies: ["React + TailwindCSS"],
       image: Autosaas,
       liveUrl: "https://autosaas.org/",
@@ -61,9 +81,10 @@ const Projects = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Bountip",
-      description: "A restaurant management platform. Implemented Table management features using react drag and drop.",
+      description:
+        "A restaurant management platform. I implemented Table management features using react drag and drop.",
       technologies: ["Nextjs", "Nestjs", "PostgreSQL", "Stripe"],
       image: Bountip,
       liveUrl: "https://www.bountip.com/",
@@ -72,9 +93,9 @@ const Projects = () => {
       category: "Restaurant Management",
     },
     {
-      id: 6,
+      id: 7,
       title: "MANCE",
-      description: "A Business performance platform.",
+      description: "A Business performance platform. Tasks on sprint. ",
       technologies: ["PHP", "Laravel", "Nextjs", "MySQL"],
       image: Mance,
       liveUrl: "https://www.mance.app/",
@@ -82,24 +103,6 @@ const Projects = () => {
       status: "Live",
       category: "ERP",
     },
-    // {
-    //   id: 6,
-    //   title: "Touring and Hotel Management System",
-    //   description: "A tourism and hospitality platform",
-    //   technologies: [
-    //     "React",
-    //     "Laravel",
-    //     "MySQL",
-    //     "Cloudinary",
-    //     "Stripe",
-    //     "PayStack",
-    //   ],
-    //   image: Tour9ja,
-    //   liveUrl: "#",
-    //   githubUrl: "#",
-    //   status: "In Development",
-    //   category: "Tourism & Hospitality",
-    // },
   ];
 
   const containerVariants = {
